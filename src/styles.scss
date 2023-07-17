@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'variables.scss';
+
+body, html {
+    color: var(--wb-font-color);
+    background-color: var(--wb-background-color);
+    font-family: var(--wb-font-family);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--wb-background-color);
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: var(--wb-alt-color);
+    border: 3px solid var(--wb-background-color);
+    border-radius: 10px;
+}
+
+section {
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+	min-height: 100vh;
+}
+
+h1 {
+    font-size: var(--wb-h1-size);
+}
+
+h2 {
+    font-size: var(--wb-h2-size);
+}
+
+h3 {
+    font-size: var(--wb-h3-size);
+}
+
+h4 {
+    font-size: var(--wb-h4-size);
+    color: var(--wb-highlight-color);
+}

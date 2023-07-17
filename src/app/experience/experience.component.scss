@@ -1,0 +1,28 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    padding-top: 25px;
+
+    .card {
+        border-radius: 5px;
+        background-color: var(--wb-alt-color);
+        height: 350px;
+        
+        &:hover {
+            box-shadow: 0 0 18px 8px var(--wb-highlight-color); 
+        }
+    
+        .card-content {
+            text-align: center;
+
+            .paragraph {
+                text-align: left;
+                line-height: 1.5;
+                padding: 25px;
+            }
+        }
+    }
+}
+
