@@ -9,6 +9,10 @@
     align-items: center;
     padding: 5px 20px;
     backdrop-filter: blur(10px);
+
+    a {
+        cursor: pointer;
+    }
 }
  
 img {

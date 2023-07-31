@@ -1,0 +1,22 @@
+.footer-container {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+img {
+    height: 40px;
+}
+
+.footer-icons {
+    a {
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+}
