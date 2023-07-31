@@ -1,12 +1,14 @@
 <div class="navbar-container">
     <div class="navbar-icon">
-      <img class="navbar-icon" src="../favicon.ico">
+      <a (click)="scrollToElement('landing')">
+        <img class="navbar-icon" src="../favicon.ico">
+      </a>
     </div>
   
     <div class="navbar-links">
       <a (click)="scrollToElement('experience')">Experience</a>
       <a (click)="scrollToElement('projects')">Projects</a>
       <a (click)="scrollToElement('skills')">Skills</a>
-      <a>Resume</a>
+      <a class="resume" target="_blank" href="../../assets/pdf/resume.pdf">Resume</a>
     </div>
 </div>
