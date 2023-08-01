@@ -16,7 +16,7 @@
 	text-align: left;
 }
 
-.img {
+img {
     border-radius: 5px;
     height: 60vh;
     filter: grayscale(100%);
@@ -25,4 +25,25 @@
         transition: all 0.3s ease;
         filter: none;
     }
+}
+
+@media screen and (max-width: 640px) {
+    .landing-container {
+        display: block;
+    }
+
+   .left-container {
+        padding-right: 0;
+        text-align: center;
+   }
+
+   .right-container {
+        padding-left: 0;
+        text-align: center;
+   }
+
+   img {
+    height: auto;
+    max-width: 100%;
+   }
 }

@@ -29,6 +29,6 @@
 
 @media screen and (max-width: 640px) {
     .experience-container {
-        grid-template-columns: repeat(1, 1fr);
+        display: block;
     }
 }
