@@ -44,3 +44,11 @@ h4 {
     font-size: var(--wb-h4-size);
     color: var(--wb-highlight-color);
 }
+
+@media screen and (max-width: 640px) {
+    section {
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
