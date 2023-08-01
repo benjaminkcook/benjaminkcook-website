@@ -36,10 +36,11 @@ img {
 
     .resume {
         background-color: var(--wb-highlight-color);
+        color: var(--wb-font-color);
         border-radius: 5px;
+        text-decoration: none;
     }
     .resume:hover {
-        color: var(--wb-highlight-color);
-        background-color: var(--wb-font-color);
+        color: var(--wb-font-color);
     }
 }
